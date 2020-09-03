@@ -2692,6 +2692,11 @@ blockquote footer cite:before {
     margin-left: 15px;
   }
 }
+@media screen and (max-width: 768px) {
+  #aside_content {
+    display: none;
+  }
+}
 #post-comment .comment-head {
   margin-bottom: 1rem;
 }
